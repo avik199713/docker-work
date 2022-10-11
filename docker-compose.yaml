@@ -1,0 +1,7 @@
+version: '3'
+services:
+  httpd-server:
+    image: 'httpd'
+    ports:
+      volumes:
+        - "/mnt/wars:/usr/local/apache2/htdocs"
